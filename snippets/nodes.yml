@@ -374,14 +374,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR_1|4.0MB/s
-  network: http
-  port: 123
-  server: 43.108.103.167
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: 🇯🇵JP_1|3.8MB/s
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+  port: 22073
+  server: ruot.ayucloudservices.nl
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵JP_2|5.2MB/s
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: '22056'
+  server: ruot.ayucloudservices.nl
+  type: ss
   udp: true
-  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
+- cipher: aes-128-gcm
+  name: 🇳🇱NL_10|3.2MB/s
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: '35034'
+  server: ruot.ayucloudservices.nl
+  type: ss
+  udp: true
